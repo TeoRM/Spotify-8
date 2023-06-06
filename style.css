@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+body {
+    background: rgb(53, 195, 34);
+    background: linear-gradient(0deg, rgb(42, 47, 42) 0%, rgb(65, 198, 58) 100%);
+}
+
+.nombre-playlist {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.imagen-lista img {
+    margin: 30px 0 0 30px;
+    width: 250px;
+}
+
+.info-playlist {
+    margin-left: 40px;
+    justify-content: space-between;
+}
+
+.lista-titulos {
+    padding-top: 20px;
+    margin: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.716);
+}
+
+.lista-titulos li {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.titulos {
+    background-color: rgba(0, 0, 0, 0.366);
+    color: white;
+    height: 100%;
+    padding: 10px;
+}
+
+.cancion {
+    justify-content: space-around;
+
+    display: flex;
+    align-items: center;
+}
+
+.cancion :hover {
+    background-color: transparent !important;
+}
+
+.hover {
+    padding: 5px;
+}
+
+
+.hover :hover {
+    background-color: rgba(109, 107, 107, 0.631);
+
+}
+
+h2 {
+    width: 350px;
+}
+
+.nombre-cancion {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    display: block;
+    margin-left: 10px;
+}
+
+
+
+
+.imgpapa {
+    width: 70px;
+    height: 70px;
+}
+
+.nombre-cancion {
+    align-items: center;
+}
+
+.numero {
+    margin-right: 20px;
+}
+
+.numeral {
+    margin-left: 40px;
+}
+
+.album {
+    margin-left: 450PX;
+}
+
+.agregado {
+    margin-left: 120px;
+}
+
+.reloj {
+    margin-left: 50px;
+}
+
+.titulo {
+    margin-left: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
